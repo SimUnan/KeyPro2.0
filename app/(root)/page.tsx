@@ -1,11 +1,13 @@
 import React from 'react'
 import Product from '../product/section/Product'
+import PageLayout from '../components/PageLayout'
 
 const Home = () => {
   return (
     <div>
-        <p>Key Pro</p>
+      <PageLayout>
         <Product />
+      </PageLayout>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const ProductComponent = () => {
   return (
-    <div className='bg-gray-500 rounded m-5'>
+    <div className='bg-slate-200 bg-opacity-50 shadow-md border border-slate-200 rounded-md '>
       <div>
         <Image src={Img1} alt="T-shirt" className='' />
       </div>
