@@ -37,6 +37,7 @@ const Product = () => {
         <div className="w-full col-span-2 md:col-span-3 xl:col-span-4 2xl:col-span-6 h-full md:h-full grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-4 md:gap-8">
           {Array(12).fill(0).map((_, i) => (
             <Skeleton
+            key={i}
              className="w-full h-[250px] md:h-[350px]"
               baseColor="#d4d3d3"
               highlightColor="#e7e7e7"
@@ -44,8 +45,8 @@ const Product = () => {
           ))}
         </div>
       )}
-      {products?.map((data) => (
-        <div onClick={() => router.push(`/product/${data.id}`)}>
+      {products?.map((data, idx) => (
+        <div key={idx} onClick={() => router.push(`/product/${data.id}`)}>
           <ProductComponent
             id={data.id}
             name={data.title}
