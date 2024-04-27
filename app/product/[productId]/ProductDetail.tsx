@@ -1,13 +1,14 @@
 import React from 'react'
 
 interface ProductDetailProps{
-  product: any
+  product?: any
 }
 
 const ProductDetail = ({product}:ProductDetailProps) => {
   return (
     <div>
-        <p>{product.name}</p>
+        <p>Page still under-developing:D</p>
+        <p>{product?.name}</p>
     </div>
   )
 }
