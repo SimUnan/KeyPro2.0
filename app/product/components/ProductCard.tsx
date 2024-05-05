@@ -18,7 +18,7 @@ data
       <div className='relative aspect-square overflow-hidden w-full'>
         <Image src={data.images[0].image} alt={data.name} fill className='w-full h-full object-contain'/>
       </div>
-        <p className='text-[16px] mt-4 text-nowrap'>{truncateText(data.name)}</p>
+        <p className='max-w-full text-[16px] mt-4 text-nowrap truncate'>{data.name}</p>
         <p className='text-center mt-2'>{formatPrice(data.price)}</p>
     </div>
   )
