@@ -9,6 +9,8 @@ interface ProductDetailProps {
   product?: any;
 }
 
+//Nothing bro just do pull request for a prestation 
+
 const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
   return (
     <div className="py-10 w-full grid grid-cols-1 md:grid-cols-2 items-start justify-center gap-10">
