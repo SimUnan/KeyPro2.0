@@ -11,7 +11,6 @@ interface IPrams {
 }
 
 const ProductDetailPage = ({ params }: {params: IPrams}) => {
-    console.log(`params:`, params);
     return (
     <PageLayout>
       <ProductDetail product={DummyOneProductdata}/>
