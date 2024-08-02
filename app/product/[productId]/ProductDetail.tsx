@@ -1,6 +1,6 @@
 "use client";
 
-import { Horizontal } from "@/app/utils/Horizontal";
+import { Horizontal } from "@/utils/Horizontal";
 import Image from "next/image";
 import React from "react";
 import BrandTextComponent from "../components/BrandTextComponent";
