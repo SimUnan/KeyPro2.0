@@ -1,6 +1,6 @@
 "use client";
 
-import { Horizontal } from "@/app/utils/Horizontal";
+import { Horizontal } from "@/utils/Horizontal";
 import Image from "next/image";
 import React from "react";
 import BrandTextComponent from "../components/BrandTextComponent";
@@ -8,9 +8,6 @@ import BrandTextComponent from "../components/BrandTextComponent";
 interface ProductDetailProps {
   product?: any;
 }
-
-//Nothing bro just do pull request for a prestation 
-//again 
 
 const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
   return (

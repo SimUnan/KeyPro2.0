@@ -1,9 +1,9 @@
 "use client"
 
 import React from 'react'
-import { truncateText } from '@/app/utils/truncateText';
+import { truncateText } from '@/utils/truncateText';
 import Image from 'next/image';
-import { formatPrice } from '@/app/utils/formatPrice';
+import { formatPrice } from '@/utils/formatPrice';
 
 interface props{
   data: any
