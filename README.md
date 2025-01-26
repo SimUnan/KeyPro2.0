@@ -35,6 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+```bash
 src
 │___app // page
 |   |   page.tsx
@@ -63,5 +64,5 @@ src
 |   |   DateConverter // convert string date using moment js.
 |   |   URLParams // use for convert object to queryString for filter page.
 |   |___superbase // supabase client config.
-
+```
 
